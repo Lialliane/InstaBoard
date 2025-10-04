@@ -1,0 +1,30 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2em;
+  width: 90%;
+  max-width: 66em;
+}
+
+.load-btn {
+  margin: 2em 0;
+  padding: 1em 2em;
+  background-color: #4A5DF9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+  font-size: 1em;
+}
+
+.load-btn:hover {
+  background-color: #0056b3;
+}
