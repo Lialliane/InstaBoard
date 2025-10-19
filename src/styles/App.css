@@ -2,14 +2,14 @@
   font-family: 'insta_font';
   font-style: normal;
   font-weight: 400;
-  src: url('./components/font.otf') format('.opentype');
+  src: url("/public/font.otf") format('.opentype');
 }
 
 @font-face {
   font-family: 'insta_font';
   font-style: normal;
   font-weight: 700;
-  src: url('./components/fontB.otf') format('opentype');
+  src: url("/public/fontB.otf") format('opentype');
 }
 
 
@@ -31,6 +31,25 @@ body, html {
 h1 {
   margin: 0;
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   font-family: "insta_font";
 }
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background: #eee;
+  padding: 1rem;
+}
+.active {
+  font-weight: bold;
+  color: tomato;
+}
+
+.welcome{
+  background: linear-gradient(to right, orange, orange, rgb(255, 0, 157), rgb(255, 0, 242));
+  background-clip: text;
+  color: transparent;
+}
+

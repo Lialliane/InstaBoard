@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  background: black;
+  padding: 1rem;
+  font-family: 'insta_font';
+  font-size: 1.3rem;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.active1 {
+  font-weight: bolder;
+  color: orange !important;
+}
+.active2{
+  color: red !important;
+}
+.active3{
+  color: rgb(255, 0, 242) !important;
+}
